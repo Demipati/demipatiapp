@@ -2,7 +2,7 @@
   "name": "reactproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://demipati.github.io/Demipatiapp/",
+  "homepage": "https://demipati.github.io/demipatiapp/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "firebase": "^7.2.2",
