@@ -1,0 +1,11 @@
+*PAckage.JSON*  =>    Listado de paquetes que se está usando actualmente
+
+- package-log.json =>   se puede editar
+
+.gitignore  =>          Archivo de configuración de gitignore
+
+node_modules =>         De la app en react
+
+public: =>              donde va realmente todo el codigo que escribimos id root.. aqui se monta todo
+
+src =>                  React trabaja en esta carpeta 

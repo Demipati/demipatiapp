@@ -1,0 +1,30 @@
+{
+    "_comment": "Para Simular datos estos vendran desde firebase",
+    "tareas":[
+        {
+            "titulo": "Trabajo Radia",
+            "prioridad": "Alta",
+            "responsable": "Caleb",
+            "descripcion": "solkucionarios de la tercera pc 2018-1"
+        },
+        {
+            "titulo": "Simulaciones",
+            "prioridad": "Media",
+            "responsable": "Ventura",
+            "descripcion": "Simular el método Hamming para corrección y derección de errores"
+        },
+        {
+            "titulo": "Proyecto WIE",
+            "prioridad": "Baja",
+            "responsable": "Caleb & Sebastian",
+            "descripcion": "Construcción de la maqueta y funcionalidad de una ciudad conectada"
+        },
+        {
+            "titulo": "Prueba de transistor",
+            "prioridad": "Media",
+            "responsable": "Ventura Vasquez",
+            "descripcion": "Comprobar el funcionamiento de un transistor NPN"
+        }
+    ]
+
+}
