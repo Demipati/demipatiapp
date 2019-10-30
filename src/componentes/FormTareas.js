@@ -17,13 +17,13 @@ class FormTareas extends Component{
             <div className="card mt-4">
                 <div className="card-body">
                     <form>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="exampleFormControlSelect1">Example select</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <select className="form-control" id="exampleFormControlSelect1">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -31,9 +31,9 @@ class FormTareas extends Component{
                             <option>5</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="exampleFormControlSelect2">Example multiple select</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <select multiple className="form-control" id="exampleFormControlSelect2">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -41,9 +41,9 @@ class FormTareas extends Component{
                             <option>5</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </form>
                 </div>

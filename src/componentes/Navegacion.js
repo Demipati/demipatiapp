@@ -6,7 +6,7 @@ class Navegacion extends Component{
 
             <div className="Navegacion">
                 <nav className="navbar navbar-expand-lg  navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
+                    <a className="navbar-brand" href="#">
                         <img src="./img/favicon/apple-icon.png" width="50" height="50" alt=""/>
                         Demipati
                     </a>
@@ -36,9 +36,9 @@ class Navegacion extends Component{
                             </li>
                             
                             {/*<li className="nav-item px-md-2">
-                                <form class="form-inline">
-                                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar libro" aria-label="Search"/>
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                                <form className="form-inline">
+                                    <input className="form-control mr-sm-2" type="search" placeholder="Buscar libro" aria-label="Search"/>
+                                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                                 </form>
                                 </li>*/}
 
@@ -47,10 +47,10 @@ class Navegacion extends Component{
                     </div>
 
                     <div className="mr-md-2">
-                        <button class="btn btn-info my-2 my-sm-0" type="submit">Iniciar Sesión</button>
+                        <button className="btn btn-info my-2 my-sm-0" type="submit">Iniciar Sesión</button>
                     </div>
                    <div className="mr-md-2">
-                        <button class="btn btn-warning my-2 my-sm-0" type="submit">Registrarse</button>
+                        <button className="btn btn-warning my-2 my-sm-0" type="submit">Registrarse</button>
                    </div>
                 </nav>
             </div>
