@@ -6,7 +6,7 @@ class Navegacion extends Component{
 
             <div className="Navegacion">
                 <nav className="navbar navbar-expand-lg  navbar-light bg-light">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="https://www.google.com/">
                         <img src="./img/favicon/apple-icon.png" width="50" height="50" alt=""/>
                         Demipati
                     </a>
@@ -16,22 +16,22 @@ class Navegacion extends Component{
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active px-md-2">
-                                <a className="nav-link" href="#">Home {this.props.nombre} <span className="sr-only">(current)</span></a>
+                                <a className="nav-link" href="https://www.google.com/">Home {this.props.nombre} <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item px-md-2">
-                                <a className="nav-link" href="#">Nosotros</a>
+                                <a className="nav-link" href="https://www.google.com/">Nosotros</a>
                             </li>
                             <li className="nav-item px-md-2">
-                                <a className="nav-link" href="#">Pedidos</a>
+                                <a className="nav-link" href="https://www.google.com/">Pedidos</a>
                             </li>
                             <li className="nav-item dropdown px-md-2">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle" href="https://www.google.com/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Catálogo
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
-                                <a className="dropdown-item" href="#">Something else here</a>
+                                <a className="dropdown-item" href="https://www.google.com/">Action</a>
+                                <a className="dropdown-item" href="https://www.google.com/">Another action</a>
+                                <a className="dropdown-item" href="https://www.google.com/">Something else here</a>
                                 </div>
                             </li>
                             

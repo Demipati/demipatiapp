@@ -6,7 +6,7 @@ class Carousel extends Component{
 
             <div className="Carousel">
                 <div className="Container">
-                    <img src="./img/slider1.jpg" className="img-fluid" alt="Responsive image"/>
+                    <img src="./img/slider1.jpg" className="img-fluid" alt="Responsive"/>
                 </div>
                 {/*
                 <div class="bd-example">

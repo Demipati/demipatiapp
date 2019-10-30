@@ -10,8 +10,8 @@ import App from './App'; //Importa App desde App.js
 import * as serviceWorker from './serviceWorker'; //Simular datos de manera local, es un tipo cache, guarda los datos que estabas usando / guarda en memoria local, cuando vuelva la conexión estos datos son enviados... mas info en WPA(Aplicaciones web progresivas).
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
+//import $ from 'jquery';
+//import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 //Biblioteca React enfocado al navegador

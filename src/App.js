@@ -7,7 +7,6 @@ import React, {Component} from 'react'; //IMporta react
 import './App.css';
 
 import Navegacion from './componentes/Navegacion';
-import Tareas from './componentes/Tareas';
 import Carousel from './componentes/Carousel';
 
 //COMPONENTE APP
@@ -52,7 +51,7 @@ class App extends Component {
                 <div className="card">
                   <img src="./img/categoria1.jpg" className="card-img-top" alt="..."/>
                   <div className="card-body">
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.google.com/" className="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -60,7 +59,7 @@ class App extends Component {
                 <div className="card">
                 <img src="./img/categoria2.jpg" className="card-img-top" alt="..."/>
                   <div className="card-body">
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.google.com/" className="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -68,7 +67,7 @@ class App extends Component {
                 <div className="card">
                 <img src="./img/categoria4.jpg" className="card-img-top" alt="..."/>
                   <div className="card-body">
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.google.com/" className="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -76,7 +75,7 @@ class App extends Component {
                 <div className="card">
                 <img src="./img/categoria5.jpg" className="card-img-top" alt="..."/>
                   <div className="card-body">
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.google.com/" className="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -108,7 +107,7 @@ class App extends Component {
                   <div className="col p-4 d-flex flex-column position-static">
                     <strong className="d-inline-block mb-2 text-success">Paso 2</strong>
                     <h3 className="mb-0">Sube tu producto y valorízalo</h3><br/>
-                    <p className="mb-auto">Entra al <a href="#">Formulario</a> de subir libro, indícanos las carácteristicas de tu libro y será publicada en la plataforma</p>
+                    <p className="mb-auto">Entra al <a href="https://www.google.com/">Formulario</a> de subir libro, indícanos las carácteristicas de tu libro y será publicada en la plataforma</p>
                   </div>
                   <div className="col-auto d-none d-lg-block">
                     <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -132,7 +131,7 @@ class App extends Component {
                   <div className="col p-4 d-flex flex-column position-static">
                     <strong className="d-inline-block mb-2 text-primary">Paso 4</strong>
                     <h3 className="mb-0">Entrega</h3><br/>
-                    <p className="mb-auto">Tienes la posibilidad de encontrar en la plataforma a otra persona que puede hacer el recojo y entrega de tu producto. <a href="#">Contáctalo</a></p>
+                    <p className="mb-auto">Tienes la posibilidad de encontrar en la plataforma a otra persona que puede hacer el recojo y entrega de tu producto. <a href="https://www.google.com/">Contáctalo</a></p>
                   </div>
                   <div className="col-auto d-none d-lg-block">
                     <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -292,7 +291,7 @@ class App extends Component {
                 </p>
               </div>
               <small className="d-block text-right mt-3">
-                <a href="#">All updates</a>
+                <a href="https://www.google.com/">All updates</a>
               </small>
             </div>
 
@@ -303,7 +302,7 @@ class App extends Component {
                 <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                   <div className="d-flex justify-content-between align-items-center w-100">
                     <strong className="text-gray-dark">Full Name</strong>
-                    <a href="#">Follow</a>
+                    <a href="https://www.google.com/">Follow</a>
                   </div>
                   <span className="d-block">@username</span>
                 </div>
@@ -313,7 +312,7 @@ class App extends Component {
                 <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                   <div className="d-flex justify-content-between align-items-center w-100">
                     <strong className="text-gray-dark">Full Name</strong>
-                    <a href="#">Follow</a>
+                    <a href="https://www.google.com/">Follow</a>
                   </div>
                   <span className="d-block">@username</span>
                 </div>
@@ -323,13 +322,13 @@ class App extends Component {
                 <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                   <div className="d-flex justify-content-between align-items-center w-100">
                     <strong className="text-gray-dark">Full Name</strong>
-                    <a href="#">Follow</a>
+                    <a href="https://www.google.com/">Follow</a>
                   </div>
                   <span className="d-block">@username</span>
                 </div>
               </div>
               <small className="d-block text-right mt-3">
-                <a href="#">All suggestions</a>
+                <a href="https://www.google.com/">All suggestions</a>
               </small>
             </div>
           </div>
