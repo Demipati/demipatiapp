@@ -34,7 +34,7 @@ class App extends Component {
               <div className="col-md">
                 <form className="form-inline">
                     <input className="form-control mr-sm-2" type="search" placeholder="Buscar libro" aria-label="Search"/>
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    <button className="btn btn-outline-success my-2 my-sm-0 mx-auto" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
@@ -108,7 +108,7 @@ class App extends Component {
         <section className="my-5">
           <div className="container">
             <div className="text-center">
-              <img className="d-block mx-auto" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"/>
+              
               <h3>Sube tu libro</h3>
               <p className="lead">Publica la venta de tu libro en nuestra plataforma indicandonos los datos que se muestran a continuación:</p>
             </div>
@@ -237,97 +237,113 @@ class App extends Component {
               <div className="row">
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023_pub22.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h6 className="card-text">Dibujo de Ingeniería</h6>
+                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
                         </div>
-                        <small className="text-muted">9 mins</small>
+                        <small className="text-muted"> 9 de 10 </small>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded card-img-top"  src="/img/catalogo/user023_pub23.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h6 className="card-text">Dibujo de Ingeniería</h6>
+                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
                         </div>
-                        <small className="text-muted">9 mins</small>
+                        <small className="text-muted"> 9 de 10 </small>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023_pub24.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h6 className="card-text">Dibujo de Ingeniería</h6>
+                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
                         </div>
-                        <small className="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4">
-                  <div className="card mb-4 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div className="card-body">
-                      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div className="d-flex justify-content-between align-items-center">
-                        <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small className="text-muted">9 mins</small>
+                        <small className="text-muted"> 9 de 10 </small>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded card-img-top"  src="/img/catalogo/user023_pub25.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h6 className="card-text">Dibujo de Ingeniería</h6>
+                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
                         </div>
-                        <small className="text-muted">9 mins</small>
+                        <small className="text-muted"> 9 de 10 </small>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023_pub26.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h6 className="card-text">Dibujo de Ingeniería</h6>
+                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
                         </div>
-                        <small className="text-muted">9 mins</small>
+                        <small className="text-muted"> 9 de 10 </small>
                       </div>
                     </div>
                   </div>
                 </div>
-
-
+                <div className="col-md-4">
+                  <div className="card mb-4 shadow-sm">
+                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023_pub27.jpg" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <div className="card-body">
+                      <h6 className="card-text">Dibujo de Ingeniería</h6>
+                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <div className="btn-group">
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
+                        </div>
+                        <small className="text-muted"> 9 de 10 </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -386,7 +402,7 @@ class App extends Component {
         <hr className="m-0"></hr>
         <section className="my-5">
           <div className="container">
-            <h3>Registrate</h3>
+            <h3>Inicia Sesión</h3>
             <div className="row">
               <div className="col-md-6 mx-auto">
                 <form>
