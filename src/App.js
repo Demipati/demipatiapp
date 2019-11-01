@@ -43,7 +43,9 @@ class App extends Component {
         
         {/*Sección categorías principales*/}
         <hr className="m-0"></hr>
-        <section className="my-5">
+      {/** 
+      
+      <section className="my-5">
           <h3> Categorías principales </h3>
           <div className="container">
             <div className="row">
@@ -83,6 +85,8 @@ class App extends Component {
           </div>
         </section>
         
+        */}  
+
         {/*Sección ¿Cómo funciona?*/}
         <hr className="m-0"></hr>
         <section  className="my-5">
