@@ -237,7 +237,7 @@ class App extends Component {
               <div className="row">
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023-pub22.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub22.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
                       <h6 className="card-text">Dibujo de Ingeniería</h6>
                       <p>Etado: 9 de 10 casi nuevo</p>
@@ -255,7 +255,7 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top"  src="/img/catalogo/user023-pub23.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <img className="img-fluid rounded card-img-top"  src="./img/catalogo/user023-pub23.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
                       <h6 className="card-text">Dibujo de Ingeniería</h6>
                       <p>Etado: 9 de 10 casi nuevo</p>
@@ -273,7 +273,7 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023-pub24.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub24.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
                       <h6 className="card-text">Dibujo de Ingeniería</h6>
                       <p>Etado: 9 de 10 casi nuevo</p>
@@ -291,7 +291,7 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top"  src="/img/catalogo/user023-pub25.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <img className="img-fluid rounded card-img-top"  src="./img/catalogo/user023-pub25.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
                       <h6 className="card-text">Dibujo de Ingeniería</h6>
                       <p>Etado: 9 de 10 casi nuevo</p>
@@ -309,7 +309,7 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023-pub26.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub26.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
                       <h6 className="card-text">Dibujo de Ingeniería</h6>
                       <p>Etado: 9 de 10 casi nuevo</p>
@@ -327,7 +327,7 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top" src="/img/catalogo/user023-pub27.jpg" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub27.jpg" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
                       <h6 className="card-text">Dibujo de Ingeniería</h6>
                       <p>Etado: 9 de 10 casi nuevo</p>
