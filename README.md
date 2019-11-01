@@ -1,3 +1,6 @@
+Demipati es un emprendimiento que tiene como objetivo la reducción de la hulla de carbono en las fábricas ocacionadas por el modelo lineal de consumo. Demipati es una plataforma web colaborativa en el que los usuarios pueden vender aquellos materiales de estudio que ya han sido usados y han perdido su valor. Otros usuarios pueden comprarlos o solicitarlos.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
