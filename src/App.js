@@ -217,6 +217,7 @@ class App extends Component {
                     
                     </div>
                   </div>
+                  
                   <button className="btn btn-primary btn-lg btn-block" type="submit">Publicar</button>
                 </form>
               </div>
@@ -337,7 +338,48 @@ class App extends Component {
         <hr className="m-0"></hr>
         <section className="my-5">
           <h3>¿Deseas comprar algun libro específico?... ¡solicítalo!</h3>
-          <p>En construcción</p>
+          <h4 className="mb-3">Datos del libro</h4>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 mx-auto order-md-1">                
+                <form className="needs-validation" noValidate="">
+                  <div className="row">
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="bookNameSoli">Título del libro</label>
+                      <input type="text" className="form-control" id="bookNameSoli" placeholder="Doña Bárbara"  required=""/>
+                      <div className="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="autorSoli">Autor</label>
+                      <input type="text" className="form-control" id="autorSoli" placeholder="Romulo Gallegos" required=""/>
+                      <div className="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+                    <div className="mb-3 col-md-6">
+                      <label htmlFor="dateSoli">Fecha aproximada de compra</label>
+                      <input type="text" className="form-control" id="dateSoli" placeholder="abril 2018"/>
+                      <div className="invalid-feedback">
+                        Ingrese un número válido
+                      </div>
+                    </div>
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="univSoli">Universidad del solicitante</label>
+                      <input type="text" className="form-control" id="univSoli" placeholder="Cayetano" required=""/>
+                      <div className="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+
+                  </div>
+                  <button className="btn btn-primary btn-lg btn-block" type="submit">Solicitar</button>
+                </form>
+              </div>
+            </div>
+
+              </div>
         </section>
 
         {/*Sección Inicia Sesión*/}
