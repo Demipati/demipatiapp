@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d17aca6920ab23390fd62a534b049e46",
+    "revision": "a54074585354e10b9e82049a7b6e023f",
     "url": "/demipatiapp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demipatiapp/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "2fd9c12437869849caf8",
+    "revision": "73e1cf205946a434c822",
     "url": "/demipatiapp/static/css/main.99a6eba2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demipatiapp/static/js/2.7687c204.chunk.js"
   },
   {
-    "revision": "2fd9c12437869849caf8",
-    "url": "/demipatiapp/static/js/main.c60fe559.chunk.js"
+    "revision": "73e1cf205946a434c822",
+    "url": "/demipatiapp/static/js/main.972f950f.chunk.js"
   },
   {
     "revision": "b5d4af7e3989b7459c6d",
