@@ -19,7 +19,7 @@ class App extends Component {
       // Propiedades ojooooo IMPORTANTE
 
       <div className="App">
-        <Navegacion nombre="Conecielito <3"/>
+        <Navegacion nombre=" Javier "/>
         <Carousel/>
         {/*<Tareas/>*/}
 
