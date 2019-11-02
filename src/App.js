@@ -291,7 +291,7 @@ class App extends Component {
                       <h6 className="card-text">Guía PMBOK 6th - PMI </h6>
                       <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Empresas | Lo usé en: Gestio de Proyectos </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
-                      <h4>s/. 37</h4>
+                      <h4>s/. 45</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
                           <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
@@ -309,7 +309,7 @@ class App extends Component {
                       <h6 className="card-text">Derecho Romano - Esitares </h6>
                       <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Derecho | Lo usé en: Derecho ROmano I </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
-                      <h4>s/. 37</h4>
+                      <h4>s/. 33</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
                           <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
@@ -327,7 +327,7 @@ class App extends Component {
                       <h6 className="card-text">Los Desposeidos - Minotauro </h6>
                       <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Economía | Lo usé en: Microeconomía </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
-                      <h4>s/. 37</h4>
+                      <h4>s/. 27</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
                           <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
@@ -345,7 +345,7 @@ class App extends Component {
                       <h6 className="card-text">Scrum MASTER - Scrum </h6>
                       <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Desarrollo | Lo usé en: Gestion del desarrollo </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
-                      <h4>s/. 37</h4>
+                      <h4>s/. 42</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
                           <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
@@ -363,7 +363,7 @@ class App extends Component {
                       <h6 className="card-text">Genética Humana - Solari </h6>
                       <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Medicina | Lo usé en: Genética I </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
-                      <h4>s/. 37</h4>
+                      <h4>s/. 68</h4>
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
                           <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
