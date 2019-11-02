@@ -57,7 +57,7 @@ class App extends Component {
                     <p className="card-text mb-auto">Proporcionanos tus datos para que puedas conectarte con usuarios que venden o compran libros cerca de tu centro de estudios.</p>
                   </div>
                   <div className="col-auto d-none d-lg-block">
-                    <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded" src="./img/working.jpg" width="200" alt="Dibujo de Ingeniería - P. Kaster" />
                   </div>
                 </div>
               </div>
@@ -66,10 +66,10 @@ class App extends Component {
                   <div className="col p-4 d-flex flex-column position-static">
                     <strong className="d-inline-block mb-2 text-success">Paso 2</strong>
                     <h3 className="mb-0">Sube tu producto y valorízalo</h3><br/>
-                    <p className="mb-auto">Entra al <a href="https://www.google.com/">Formulario</a> de subir libro, indícanos las carácteristicas de tu libro y será publicada en la plataforma</p>
+                    <p className="mb-auto">Entra al <a href="/">Formulario</a> de subir libro, indícanos las carácteristicas de tu libro y será publicada en la plataforma</p>
                   </div>
                   <div className="col-auto d-none d-lg-block">
-                    <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded" src="./img/working.jpg" width="200" alt="Dibujo de Ingeniería - P. Kaster" />
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ class App extends Component {
                     <p className="mb-auto">Recibirás notificaciones de personas interesesadas en comprar tu producto, contacta con uno de ellos y vendele</p>
                   </div>
                   <div className="col-auto d-none d-lg-block">
-                    <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded" src="./img/working.jpg" width="200" alt="Dibujo de Ingeniería - P. Kaster" />
                   </div>
                 </div>
               </div>
@@ -90,10 +90,10 @@ class App extends Component {
                   <div className="col p-4 d-flex flex-column position-static">
                     <strong className="d-inline-block mb-2 text-primary">Paso 4</strong>
                     <h3 className="mb-0">Entrega</h3><br/>
-                    <p className="mb-auto">Tienes la posibilidad de encontrar en la plataforma a otra persona que puede hacer el recojo y entrega de tu producto. <a href="https://www.google.com/">Contáctalo</a></p>
+                    <p className="mb-auto">Tienes la posibilidad de encontrar en la plataforma a otra persona que puede hacer el recojo y entrega de tu producto. <a href="/">Contáctalo</a></p>
                   </div>
                   <div className="col-auto d-none d-lg-block">
-                    <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img className="img-fluid rounded" src="./img/working.jpg" width="200" alt="Dibujo de Ingeniería - P. Kaster" />
                   </div>
                 </div>
               </div>
@@ -142,11 +142,11 @@ class App extends Component {
                       <label htmlFor="email">Email <span className="text-muted">(Opcional)</span></label>
                       <input type="email" className="form-control" id="email" placeholder="example@gmail.com"/>
                       <div className="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
+                        Este no es un correo
                       </div>
                     </div>
                     <div className="mb-3 col-md-6">
-                      <label htmlFor="phone">Número de celular <span className="text-muted">(Opcional)</span></label>
+                      <label htmlFor="phone">Número de celular</label>
                       <input type="text" className="form-control" id="phone" placeholder="+51 971854793"/>
                       <div className="invalid-feedback">
                         Ingrese un número válido
@@ -163,7 +163,7 @@ class App extends Component {
                   </div>
 
                   <div className="mb-3">
-                    <label htmlFor="address2">Universidad o Instituto en la que estudias <span className="text-muted">(Opcional)</span></label>
+                    <label htmlFor="address2">Universidad o Instituto en la que estudias <span className="text-muted">(Siglas)</span></label>
                     <input type="text" className="form-control" id="address2" placeholder="PUCP"/>
                   </div>
                   
@@ -173,25 +173,25 @@ class App extends Component {
                       <label htmlFor="bookName">Título del libro</label>
                       <input type="text" className="form-control" id="bookName" placeholder=""  required=""/>
                       <div className="invalid-feedback">
-                        Valid first name is required.
+                        Estás seguro que este es el nombre
                       </div>
                     </div>
                     <div className="col-md-6 mb-3">
                       <label htmlFor="lastName">Autor</label>
                       <input type="text" className="form-control" id="lastName" placeholder="" required=""/>
                       <div className="invalid-feedback">
-                        Valid last name is required.
+                        Ingresa un nombre válido
                       </div>
                     </div>
                     <div className="mb-3 col-md-6">
                       <label htmlFor="phone">Fecha aproximada de compra</label>
                       <input type="text" className="form-control" id="date" placeholder="abril 2018"/>
                       <div className="invalid-feedback">
-                        Ingrese un número válido
+                        Escoge bien la fecha
                       </div>
                     </div>
                   
-                    <div className="col-md-5 mb-3">
+                    <div className="col-md-6 mb-3">
                       <label htmlFor="country">Estado</label>
                       <select className="custom-select d-block w-100" id="country" required="">
                         <option value="onChange">Elige</option>
@@ -199,22 +199,53 @@ class App extends Component {
                         <option>09/10</option>
                         <option>08/10</option>
                         <option>07/10</option>
-                        <option>06/10</option>
-                        <option>05/10</option>
-                        <option>04/10</option>
-                        <option>03/10</option>
-                        <option>02/10</option>
-                        <option>01/10</option>
                       </select>
                       <div className="invalid-feedback">
-                        Please select a valid country.
+                        EScoja uno de los valores
                       </div>
                     </div>
-                    <div className="col-md-5 mb-3">
-                   
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="temabook">Temática</label>
+                      <select className="custom-select d-block w-100" id="temabook" required="">
+                        <option value="onChange">Elige</option>
+                        <option>Química</option>
+                        <option>Economía</option>
+                        <option>Empresas</option>
+                        <option>Ingeniería</option>
+                        <option>Arquitectura</option>
+                        <option>Agro</option>
+                        <option>Insdustrial</option>
+                        <option>Manual</option>
+                        <option>Programación</option>
+                        <option>Electrónica</option>
+                        <option>Sistemas</option>
+                        <option>Arte</option>
+                      </select>
+                      <div className="invalid-feedback">
+                        EScoja uno de los valores
+                      </div>
+                    </div>
+                    <div className="mb-3 col-md-6">
+                      <label htmlFor="cursousado">¿En qué curso lo usaste?</label>
+                      <input type="text" className="form-control" id="cursousado" placeholder="Finanzas II"/>
+                      <div className="invalid-feedback">
+                        ¿?
+                      </div>
+                    </div>
+                    <div className="col-md-12 mb-3">
+                      <label htmlFor="exampleFormControlTextarea1">Descripción del Producto</label>
+                      <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div className="col-md-6 mb-3">                   
                       <label htmlFor="inputFile">Selecciona al menos 3 fotos</label>
                       <input type="file" className="form-control-file" id="exampleFormControlFile1"/>
-                    
+                    </div>
+                    <div className="mb-3 col-md-6 mx-auto">
+                      <label htmlFor="precio">¿A qué precio lo deseas vender? * </label>
+                      <input type="text" className="form-control" id="precio" placeholder="s/.24"/>
+                      <div className="invalid-feedback">
+                        ¿?
+                      </div>
                     </div>
                   </div>
                   
@@ -237,46 +268,46 @@ class App extends Component {
               <div className="row">
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub22.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
-                    <div className="card-body">
-                      <h6 className="card-text">Dibujo de Ingeniería</h6>
-                      <p>Etado: 9 de 10 casi nuevo</p>
-                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
-                      <h4>s/. 37</h4>
-                      <div className="d-flex justify-content-between align-items-center">
-                        <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
-                        </div>
-                        <small className="text-muted"> 9 de 10 </small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card mb-4 shadow-sm">
-                    <img className="img-fluid rounded card-img-top"  src="./img/catalogo/user023-pub23.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
-                    <div className="card-body">
-                      <h6 className="card-text">Dibujo de Ingeniería</h6>
-                      <p>Etado: 9 de 10 casi nuevo</p>
-                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
-                      <h4>s/. 37</h4>
-                      <div className="d-flex justify-content-between align-items-center">
-                        <div className="btn-group">
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
-                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
-                        </div>
-                        <small className="text-muted"> 9 de 10 </small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card mb-4 shadow-sm">
                     <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub24.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <h6 className="card-text">Dibujo de Ingeniería</h6>
-                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <h6 className="card-text">Dibujo de Ingeniería - P. Kaster </h6>
+                      <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Arquitectura | Lo usé en: Dibujo de INgeniería II </p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <div className="btn-group">
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
+                        </div>
+                        <small className="text-muted"> 9 de 10 </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="card mb-4 shadow-sm">
+                    <img className="img-fluid rounded card-img-top"  src="./img/catalogo/user023-pub22.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <div className="card-body">
+                      <h6 className="card-text">Guía PMBOK 6th - PMI </h6>
+                      <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Empresas | Lo usé en: Gestio de Proyectos </p>
+                      <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
+                      <h4>s/. 37</h4>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <div className="btn-group">
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Ver más</button>
+                          <button type="button" className="btn btn-sm btn-outline-secondary">Comprar</button>
+                        </div>
+                        <small className="text-muted"> 9 de 10 </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="card mb-4 shadow-sm">
+                    <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub23.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
+                    <div className="card-body">
+                      <h6 className="card-text">Derecho Romano - Esitares </h6>
+                      <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Derecho | Lo usé en: Derecho ROmano I </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
                       <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
@@ -293,8 +324,8 @@ class App extends Component {
                   <div className="card mb-4 shadow-sm">
                     <img className="img-fluid rounded card-img-top"  src="./img/catalogo/user023-pub25.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <h6 className="card-text">Dibujo de Ingeniería</h6>
-                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <h6 className="card-text">Los Desposeidos - Minotauro </h6>
+                      <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Economía | Lo usé en: Microeconomía </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
                       <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
@@ -311,8 +342,8 @@ class App extends Component {
                   <div className="card mb-4 shadow-sm">
                     <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub26.jpg" height="225" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <h6 className="card-text">Dibujo de Ingeniería</h6>
-                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <h6 className="card-text">Scrum MASTER - Scrum </h6>
+                      <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Desarrollo | Lo usé en: Gestion del desarrollo </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
                       <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
@@ -329,8 +360,8 @@ class App extends Component {
                   <div className="card mb-4 shadow-sm">
                     <img className="img-fluid rounded card-img-top" src="./img/catalogo/user023-pub27.jpg" alt="Dibujo de Ingeniería - P. Kaster" />
                     <div className="card-body">
-                      <h6 className="card-text">Dibujo de Ingeniería</h6>
-                      <p>Etado: 9 de 10 casi nuevo</p>
+                      <h6 className="card-text">Genética Humana - Solari </h6>
+                      <p>Comprado: 04-19  | Etado: 9 de 10 | Temática : Medicina | Lo usé en: Genética I </p>
                       <p>Este libro lo compré en junio del 2018 pero no lo he usado casi nunca, está guardado intacto.</p>
                       <h4>s/. 37</h4>
                       <div className="d-flex justify-content-between align-items-center">
