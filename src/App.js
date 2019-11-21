@@ -29,7 +29,7 @@ class App extends Component {
           <div className="container mx-auto">
             <div className="row m-4">
               <div className="col-md">
-                <h2>¿Qué libros buscas?</h2>
+                <h2>¿Qué libros buscaas?</h2>
               </div>
               <div className="col-md">
                 <form className="form-inline">
